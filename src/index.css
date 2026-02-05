@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors dark:hover:text-blue-400;
+  }
+
+  .mobile-nav-link {
+    @apply block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-blue-400;
+  }
+
+  .mobile-nav-section {
+    @apply py-2;
+  }
+
+  .mobile-nav-title {
+    @apply px-3 py-2 text-sm font-semibold text-gray-500 dark:text-gray-400;
+  }
+}
+
+:root {
+  --swiper-theme-color: #ffffff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+}
+
+.ql-editor {
+  word-break: break-word;
+}
