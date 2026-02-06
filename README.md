@@ -28,11 +28,13 @@ npm run dev
 Visit http://localhost:5173 (or the port Vite reports)
 
 Notes
+Visit http://localhost:5173 (or the port Vite reports)
+
+Notes
 - This project expects a backend API to provide authentication and CRUD endpoints. Configure the API base URL in `src/env.ts` or the appropriate env file used by your setup.
+- Backend repository: https://github.com/adrianleul/rbac-backend.git
+- Combined repository (frontend + backend): https://github.com/adrianleul/RBAC.git
 - In development React StrictMode is enabled; some effects may run twice (dev-only). See `src/main.tsx` for how to adjust behaviour if needed.
- - This project expects a backend API to provide authentication and CRUD endpoints. Configure the API base URL in `src/env.ts` or the appropriate env file used by your setup.
- - Backend repository: https://github.com/adrianleul/rbac-backend.git
- - In development React StrictMode is enabled; some effects may run twice (dev-only). See `src/main.tsx` for how to adjust behaviour if needed.
 
 ## Project structure (important folders)
 - `src/` — application source code
